@@ -1,0 +1,299 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+
+body {
+
+    width: 100%;
+    height: 100vh;
+
+    background-image:  url(./img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.barra {
+width: 100%;
+margin: auto;
+padding: 35px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgb(255, 255, 255,0.6);
+
+
+
+}
+
+.titulo {
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    color: rgb(0, 72, 226);
+    font-weight: bold;
+    font-size: 30px;
+    width: 130px;
+    cursor: pointer;
+    padding: 20px 20px 20px 110px ;
+}
+
+
+.barra ul{
+padding-right: 75px;
+
+}
+.barra ul li {
+    
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    padding-right: 0;
+   
+    justify-content: center;
+   align-items: center;
+   border-radius: 0.2em;
+
+   padding: 0.7rem 1.5rem;
+   margin: 0.8rem;
+   background-image: linear-gradient(to left, transparent 50%,rgb(0, 72, 226) 50% );
+   background-size: 200%;
+   background-repeat: no-repeat;
+   background-position: right;
+   transition: background-position .3s ease;
+   
+ 
+
+  } 
+
+  
+ .barra ul li:hover {
+
+    background-position: left;
+    color: white;
+ }
+
+  .barra ul li a{
+   
+   text-decoration: none;
+   color: rgba(151, 125, 209, 0.911);
+   font-family: sans-serif,Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 1.1rem;
+
+
+  }
+
+  .barra ul li a:hover{
+      color: white;
+  }
+
+  .enfermera1 {
+   width: 650px;
+   height: auto;
+   float: right;
+   position: relative;
+  }
+
+ .t1{
+  color: rgb(0, 0, 170);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  margin: 30px;
+  padding-left: 150px;
+  
+  font-size: 40px;
+ }
+
+ .t2{
+    color: rgb(67, 73, 163);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 30px;
+    padding-left: 150px;
+    
+    font-size: 20px;
+
+ }
+
+ .t3 {
+
+    color: rgb(0, 2, 124);
+    font-family:  sans-serif;
+    font-weight: bold;
+    margin: 30px;
+    padding-left: 150px;
+    
+    font-size: 18px;
+
+
+ }
+
+.formbox {
+
+    color:rgb(0, 2, 124);
+    font-family: sans-serif;
+    background-size: cover;
+    font-weight: 700;
+    font-size: 15px;
+    position: absolute;
+    
+      width: 900px;
+      height: 110px;
+      padding-left: 150px;
+      margin: 0 10px 0 50px;
+      
+      
+      border-radius: 0.5em;
+background-color: rgb(255, 255, 255,0.7);
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.btnsubmit {
+
+    border: 0;
+    color: white;
+    font-weight: 400;
+    background-color: blue;
+    padding: 18px;
+    margin-top: 10px;
+    border-radius: 0.2em;
+}
+
+ 
+.marcas{
+
+    width: 1350px;
+    height: auto;
+    
+    position: absolute;
+    padding-top: 170px;
+
+}
+
+.beneficios{
+
+    text-align: left;
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: left;
+
+}
+
+.box1 {
+    color: rgb(0, 2, 124);
+font-family: Arial, Helvetica, sans-serif;
+background-size: cover;
+font-weight: 800;
+;
+  width: 350px;
+  height: 250px;
+  padding: 25px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  border-radius: 0.5em;
+  border: 1.5px solid gray;
+}
+
+  .ligero{
+      font-weight: lighter;
+  }
+
+  .persona1{
+
+
+        width: 750px;
+        height: 700px;
+        float: left;
+
+  }
+
+  details {
+      color: blue;
+      font-family: Arial, Helvetica, sans-serif
+      ;
+      font-weight: bold;
+    padding: 15px;
+    background-color: #f6f7f8;
+    margin-bottom: 20px;
+}
+
+
+
+summary {
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    color: #fff;
+    background-color: #000;
+}
+
+footer{
+    
+width: 100%;
+padding: 20px 0;
+background-color: rgba(231, 231, 231, 0.932);
+margin-top: auto;
+
+}
+
+.container_footer{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 1200px;
+margin: auto;
+margin-top: 30px;
+
+}
+
+.boxfooter{
+
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.boxfooter .vaccination{
+
+    max-width: 350px;
+    margin-top: 10px;
+    font-weight: 400;
+    color: rgb(17, 0, 255);
+    
+}
+
+.boxfooter h2{
+margin-bottom: 30px;
+color: blue;
+
+}
+
+.boxfooter a{
+
+    margin-top: 10px;
+    color: blue;
+}
+.boxfooter a:hover{
+ opacity: 0.8;
+
+}
+
+.boxcopy{
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+    padding: 0 40px;
+
+}
